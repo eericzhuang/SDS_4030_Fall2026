@@ -1,0 +1,9 @@
+# Part 4: Iteratively Reweighted Least Squares
+
+Team covariate for the variance function: `length`.
+
+```{r part04}
+# TODO
+```
+
+TODO: discussion.

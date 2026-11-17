@@ -1,0 +1,7 @@
+# Part 2: Heteroscedasticity Tests
+
+```{r part02}
+# TODO
+```
+
+TODO: discussion.

@@ -1,0 +1,7 @@
+# Part 3: Heteroscedasticity-Consistent Inference
+
+```{r part03}
+# TODO
+```
+
+TODO: discussion.

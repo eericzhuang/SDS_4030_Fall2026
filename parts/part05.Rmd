@@ -1,0 +1,7 @@
+# Part 5: Jackknife and Bootstrap
+
+```{r part05}
+# TODO
+```
+
+TODO: discussion.

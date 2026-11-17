@@ -1,0 +1,9 @@
+# Part 1: Exact and Asymptotic Tests of Linear Constraints
+
+Team constraints: $H_0: 11\beta_{\texttt{length}} - 100\beta_{\texttt{curb.weight}} + 20\beta_{\texttt{engine.size}} = 5\beta_{\texttt{compression.ratio}} + 20\beta_{\texttt{horsepower}} = 1$.
+
+```{r part01}
+# TODO
+```
+
+TODO: discussion.

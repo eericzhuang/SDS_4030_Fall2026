@@ -1,0 +1,7 @@
+# Part 6: Permutation Tests
+
+```{r part06}
+# TODO
+```
+
+TODO: discussion.

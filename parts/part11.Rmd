@@ -1,0 +1,7 @@
+# Part 11: Collinearity and Regularized Regression
+
+```{r part11}
+# TODO
+```
+
+TODO: discussion.

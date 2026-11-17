@@ -1,0 +1,9 @@
+# Part 8: Interaction Effects
+
+Team qualitative covariate: `drive.wheels` (interactions with all quantitative covariates).
+
+```{r part08}
+# TODO
+```
+
+TODO: discussion.

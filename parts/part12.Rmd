@@ -1,0 +1,9 @@
+# Part 12: Multiple Comparisons
+
+Team qualitative covariate: `make` (all pairwise comparisons of average response).
+
+```{r part12}
+# TODO
+```
+
+TODO: discussion.

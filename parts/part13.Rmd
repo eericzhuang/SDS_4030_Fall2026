@@ -1,0 +1,7 @@
+# Part 13: Global Testing
+
+```{r part13}
+# TODO
+```
+
+TODO: discussion.

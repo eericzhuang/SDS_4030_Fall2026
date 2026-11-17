@@ -1,0 +1,89 @@
+---
+title: SDS 4030 - Statistics for Data Science II
+subtitle: Final Project
+author: Eric Zhuang and Alexander LASTNAME
+date: December 16, 2026
+output: pdf_document
+fontsize: 11pt
+bibliography: references.bib
+nocite: '@*'
+header-includes:
+  - \usepackage{amsmath}
+  - \usepackage{fvextra}
+  - \usepackage{etoolbox}
+  - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+  - \AtBeginEnvironment{Shaded}{\footnotesize}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(fig.align = "center", fig.height = 5, fig.width = 6)
+knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 68), tidy = TRUE)
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+set.seed(0)
+library(car)
+library(lmtest)
+library(sandwich)
+library(MASS)
+library(lme4)
+library(lmerTest)
+library(glmnet)
+library(leaps)
+library(multcomp)
+```
+
+# Data
+
+```{r data}
+car = read.table("data/car.txt", header = TRUE, stringsAsFactors = TRUE)
+response = "city.mpg"
+qual = names(car)[sapply(car, is.factor)]
+quant = setdiff(names(car)[sapply(car, is.numeric)], response) # TODO: decide whether symboling (ordinal risk rating) belongs here
+str(car)
+```
+
+```{r child = "parts/part01.Rmd"}
+```
+
+```{r child = "parts/part02.Rmd"}
+```
+
+```{r child = "parts/part03.Rmd"}
+```
+
+```{r child = "parts/part04.Rmd"}
+```
+
+```{r child = "parts/part05.Rmd"}
+```
+
+```{r child = "parts/part06.Rmd"}
+```
+
+```{r child = "parts/part07.Rmd"}
+```
+
+```{r child = "parts/part08.Rmd"}
+```
+
+```{r child = "parts/part09.Rmd"}
+```
+
+```{r child = "parts/part10.Rmd"}
+```
+
+```{r child = "parts/part11.Rmd"}
+```
+
+```{r child = "parts/part12.Rmd"}
+```
+
+```{r child = "parts/part13.Rmd"}
+```
+
+```{r child = "parts/part14.Rmd"}
+```
+
+```{r child = "parts/part15.Rmd"}
+```
+
+# References
