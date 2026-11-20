@@ -31,6 +31,8 @@ library(leaps)
 library(multcomp)
 ```
 
+<!-- ===== First half: Data + Parts 1-7 (original variables) ===== -->
+
 # Data
 
 ```{r data}
@@ -61,6 +63,8 @@ str(car)
 
 ```{r child = "parts/part07.Rmd"}
 ```
+
+<!-- ===== Second half: Parts 8-15 (transformed variables from Part 7) ===== -->
 
 ```{r child = "parts/part08.Rmd"}
 ```

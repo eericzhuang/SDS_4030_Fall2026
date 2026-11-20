@@ -2,6 +2,9 @@
 
 ```{r part07}
 # TODO
+
+# Hand-off to Parts 8-15: car.t must hold the transformed variables (keep the qualitative columns).
+car.t = car # TODO: replace with the transformed data
 ```
 
 TODO: discussion.

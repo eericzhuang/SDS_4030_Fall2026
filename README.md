@@ -11,6 +11,17 @@ Regression analysis of `city.mpg` in the car data set. Due Wednesday, December 1
 | 8  | Interactions between `drive.wheels` and all quantitative covariates |
 | 12 | All pairwise comparisons across `make` |
 
+## Work split
+
+| Half | Contents | Data used |
+|------|----------|-----------|
+| First  | Data section, Parts 1-7 | Original variables |
+| Second | Parts 8-15 | Transformed variables (`car.t`, created at the end of Part 7) |
+
+Part 15 and the overall conclusions are written together.
+
+Until Part 7 is finished, `car.t` is a copy of `car`, so the second half can start right away and pick up the real transformations once Part 7 is pushed. Agree early on whether `symboling` counts as a quantitative covariate, since it changes every model.
+
 ## Layout
 
 - `report.Rmd`: YAML, setup, data loading, bibliography; includes each part as a child document
